@@ -34,7 +34,7 @@ make netbsd
 Для демонстрации работы портированной игры прилагаются примеры запуска на различных платформах:
 
 #### Windows:
-![Image for windows](https://github.com/Dyglaz/life-expectancy-game/blob/main/screenshots/windows/Testing%20the%20game%20on%20Windows.png?raw=true)
+![Image for windows](https://github.com/Dyglaz/life-expectancy-game/blob/main/screenshots/windows/Running%20the%20game%20on%20Windows_1.png?raw=true)
 
 
 #### Linux:
