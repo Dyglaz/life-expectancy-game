@@ -8,15 +8,16 @@ void loadStatistics(char* stats[]);
 char readFirstCharacter();
 
 int main() {
+   setbuf(stdout, NULL);
    char userResponse;
    int lifeExpectancy = 72;
    char validChoices[15] = "ABCDEMGHIJKLFNO";
 
-   displaySpaces(21);
+   displaySpaces(23);
    printf("LIFE EXPECTANCY\n");
-   displaySpaces(20);
+   displaySpaces(22);
    printf("CREATIVE COMPUTING\n");
-   displaySpaces(18);
+   displaySpaces(20);
    printf("MORRISTOWN, NEW JERSEY\n");
    displayNewLines(6);
    printf("THIS IS A LIFE EXPECTANCY TEST.\n");
