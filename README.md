@@ -34,25 +34,25 @@ make netbsd
 Для демонстрации работы портированной игры прилагаются примеры запуска на различных платформах:
 
 #### Windows:
-![Image for windows](screenshots/windows/Testing the game on Windows.png)
+![Image for windows](https://github.com/Dyglaz/life-expectancy-game/blob/main/screenshots/windows/Testing%20the%20game%20on%20Windows.png?raw=true)
 
 
 #### Linux:
-![Image for linux](screenshots/linux/Running the game on Linux.png)
+![Image for linux](https://github.com/Dyglaz/life-expectancy-game/blob/main/screenshots/linux/Running%20the%20game%20on%20Linux.png?raw=true)
 
 
 #### Web:
-![Image for Web](screenshots/web/Testing the game on the web_2.png)
+![Image for Web](https://github.com/Dyglaz/life-expectancy-game/blob/main/screenshots/web/Testing%20the%20game%20on%20the%20web_2.png?raw=true)
 
 
 #### NetBSD: 
-![Image for NetBSD](screenshots/netBSD/Testing the game on a netBSD.png)
+![Image for NetBSD](https://github.com/Dyglaz/life-expectancy-game/blob/main/screenshots/netBSD/Testing%20the%20game%20on%20a%20netBSD.png?raw=true)
 
 
 
 # Автоматическое тестирование
 
-![Testing Image](screenshots/tests/Running tests_1.png)
+![Testing Image](https://github.com/Dyglaz/life-expectancy-game/blob/main/screenshots/tests/Running%20tests_1.png?raw=true)
 
 
 # История разработки
