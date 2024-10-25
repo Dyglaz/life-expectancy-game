@@ -34,25 +34,25 @@ make netbsd
 Для демонстрации работы портированной игры прилагаются примеры запуска на различных платформах:
 
 #### Windows:
-![Image for windows](screenshots\windows\Testing the game on Windows.png)
+![Image for windows](screenshots/windows/Testing the game on Windows.png)
 
 
 #### Linux:
-![Image for linux](screenshots\linux\Running the game on Linux.png)
+![Image for linux](screenshots/linux/Running the game on Linux.png)
 
 
 #### Web:
-![Image for Web](screenshots\web\Testing the game on the web_2.png)
+![Image for Web](screenshots/web/Testing the game on the web_2.png)
 
 
 #### NetBSD: 
-![Image for NetBSD](screenshots\netBSD\Testing the game on a netBSD.png)
+![Image for NetBSD](screenshots/netBSD/Testing the game on a netBSD.png)
 
 
 
 # Автоматическое тестирование
 
-![Testing Image](screenshots\tests\Running tests_1.png)
+![Testing Image](screenshots/tests/Running tests_1.png)
 
 
 # История разработки
