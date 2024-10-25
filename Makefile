@@ -25,10 +25,18 @@ web:
 	sudo apt-get install -y git build-essential emscripten nodejs npm
 	sudo npm install -g http-server
 	@echo "End of installation of necessary dependencies..."
+	@echo "The beginning of cloning the repository..."
 	cd .. && git clone https://github.com/emscripten-core/emsdk.git
+	@echo "End of repository cloning..."
+	@echo "Start installing the latest version..."
 	cd ../emsdk && ./emsdk install latest && ./emsdk activate latest && . ./emsdk_env.sh
+	@echo "End of installation of the latest version..."
+	@echo "Compilation..."
 	emcc $(TARGET).c -s NO_EXIT_RUNTIME=0 -o $(BUILD_DIR)/web/$(TARGET).html
+	@echo "End of compilation..."
+	@echo "Starting a local server..."
 	http-server
+	@echo "Shutting down the local server..."
 
 netbsd:
 	# @echo "Installing the necessary dependencies..."
